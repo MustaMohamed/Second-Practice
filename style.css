@@ -14,10 +14,11 @@ a {
   text-decoration: none;
 }
 .header {
-  height: 90vh;
+  height: 100vh;
   background-image: url('images/homeDesktopheader.jpg');
   background-size: cover; 
   background-position: center;
+  background-attachment: fixed;
 }
 .container {
   width: 80vw;
@@ -26,10 +27,13 @@ a {
 }
 
 .head-text {
-  padding-top: 20%;
-  max-width: 60%;
-  font-size: 200%;
+  padding-top: 25%;
+  max-width: 50%;
+  font-size: 150%;
   text-align: left;
+}
+.head-text h1 {
+  margin-bottom: 10px;
 }
 .head-text a {
   padding: 10px 20px 10px 20px;
@@ -43,4 +47,28 @@ a {
   background: #19CDE2;
   transition: 0.5s;
 }
+/*****************/
 
+.nav-bar {
+  height: 20vh;
+  background-color: #2980b9;
+}
+
+.logo {
+  max-width: 22%;
+}
+.logo h1 {
+  margin-left: 15px;
+  display: inline-block;
+  font-size: 150%;
+  margin-top: -15px;
+}
+.logo img {
+  margin-top: 20px;
+}
+.logo h3 {
+  float: right;
+  margin-top: -7px;
+  font-weight: 100;
+  font-size: 12px;
+}
