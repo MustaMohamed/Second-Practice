@@ -1,0 +1,46 @@
+* {
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+body {
+  color: #fff;
+  font: normal 16px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  background-color: #fff;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 90vh;
+  background-image: url('images/homeDesktopheader.jpg');
+  background-size: cover; 
+  background-position: center;
+}
+.container {
+  width: 80vw;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.head-text {
+  padding-top: 20%;
+  max-width: 60%;
+  font-size: 200%;
+  text-align: left;
+}
+.head-text a {
+  padding: 10px 20px 10px 20px;
+  background: #17ADE2;
+  color: #fff;
+  font-size: 70%;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.head-text a:hover {
+  background: #19CDE2;
+  transition: 0.5s;
+}
+
