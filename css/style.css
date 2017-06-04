@@ -15,9 +15,9 @@ body {
 
 .header .slider .intro h1 { margin: 0 auto; font-size: 40px; padding-bottom: 10px;}
 
-.header .slider .intro button {  text-transform: uppercase; background-color: #037FBB; margin-top: 40px; padding: 10px 15px; border: 3px solid #fff; border-radius: 3px; }
+.header .slider .intro button {  text-transform: uppercase; background-color: #037FBB; margin-top: 40px; padding: 10px 5px; border: 3px solid #fff; border-radius: 3px; }
 
-.header .slider .intro button a { color: #fff; text-decoration: none;}
+.header .slider .intro a { color: #fff; text-decoration: none; padding: 15px; }
 
 .header .slider .intro button:hover { background-color: #1098C8; }
 
