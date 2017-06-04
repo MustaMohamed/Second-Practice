@@ -76,3 +76,17 @@ body {
 
 /****** End what I do *******/
 
+
+
+
+/**** Start MY CLIENTS *******/
+
+.clients { overflow: hidden; margin-bottom: 40px; text-align: center; }
+
+.clients .client { width: 25%; float: left;  margin: 40px 0;}
+
+
+/****** End MY CLIENTS *******/
+
+
+
