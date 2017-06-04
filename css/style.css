@@ -1,7 +1,48 @@
+/***** Main Release ******/
 body {
-  background: #358;
 }
 
 .container {
   width: 1170px; margin: auto;
 }
+/*************************/
+
+/**** Start Header *******/
+
+.header .slider {
+  height: 50vh;
+  background-color: #333;
+}
+
+.header .nav-bar {
+  background-color: #037FBB;
+  color: #fff; overflow: hidden;
+}
+
+.header .nav-bar h2 { float: left; }
+
+.header .nav-bar h2 span { font-size: 0.5em; }
+
+.header .nav-bar ul {
+  list-style: none;
+  padding-left: 0;
+  float: right;
+}
+
+.header .nav-bar ul li { float: left; padding: 10px; }
+
+/****** End Header *******/
+
+
+/**** Start Hero *******/
+
+.hero { overflow: hidden; padding-top: 40px; padding-bottom: 40px;}
+
+.hero .hello { text-align: center; }
+
+.hero .donec { width: 50%; float: left; }
+
+.hero .read-more { text-transform: uppercase; text-align: center; }
+
+
+/****** End Hero *******/
