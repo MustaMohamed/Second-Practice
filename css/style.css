@@ -3,16 +3,21 @@ body {
 }
 
 .container {
-  width: 1170px; margin: auto;
+  width: 1170px; margin: 0 auto;
 }
 /*************************/
 
 /**** Start Header *******/
 
-.header .slider {
-  height: 50vh;
-  background-color: #333;
-}
+.header .slider { height: 90vh; background-image: url('../images/homeDesktopheader.jpg'); background-size: cover; background-attachment: fixed; background-position: center; }
+
+.header .slider .intro { width: 40%; padding-top: 25%; color: #fff; }
+
+.header .slider .intro h1 { margin: 0 auto; font-size: 40px; padding-bottom: 10px;}
+
+.header .slider .intro button { color: #fff; text-transform: uppercase; background-color: #037FBB; margin-top: 40px; padding: 10px 15px; border: 3px solid #fff; border-radius: 3px; }
+
+.header .slider .intro button:hover { background-color: #1098C8; }
 
 .header .nav-bar {
   background-color: #037FBB;
@@ -89,4 +94,23 @@ body {
 /****** End MY CLIENTS *******/
 
 
+/**** Start contact me *******/
+
+.contact { background-color: #282830; overflow: hidden; }
+
+.contact h1 { color: #fff; }
+
+.contact p { color: #6a6e71; }
+
+.contact .info, .contact .form { width: 50%; float: left; }
+
+
+/****** End contact me *******/
+
+
+/**** Start footer *******/
+
+.footer { background-color: #25373D; text-align: center; padding: 20px 0;}
+
+/****** End footer *******/
 
