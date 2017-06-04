@@ -42,7 +42,37 @@ body {
 
 .hero .donec { width: 50%; float: left; }
 
-.hero .read-more { text-transform: uppercase; text-align: center; }
+.read-more { text-transform: uppercase; text-align: center; }
 
 
 /****** End Hero *******/
+
+
+/**** Start Works *******/
+
+.works { padding-top: 40px; padding-bottom: 40px; text-align: center; }
+
+.works .our-work { overflow: hidden; }
+
+.works .our-work > div { float: left; width: 33.333333%; margin-bottom: 10px;}
+
+.works .our-work > div img { width: 100%; margin: 10px; }
+
+/****** End Works *******/
+
+
+/**** Start what I do *******/
+
+.ido { overflow: hidden; margin-bottom: 40px; }
+
+.ido .what-ido h2 { text-align: center; }
+
+.ido .port { width: 50%; float: left; }
+
+.ido .port image { float: left; display: inline;}
+
+.ido .port .tit { display: inline-block; }
+
+
+/****** End what I do *******/
+
