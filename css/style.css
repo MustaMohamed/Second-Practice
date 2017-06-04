@@ -1,10 +1,9 @@
 /***** Main Release ******/
-body {
-}
+body { font: normal 16px "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif; }
 
-.container {
-  width: 1170px; margin: 0 auto;
-}
+a { text-decoration: none; }
+
+.container { width: 1170px; margin: 0 auto; }
 /*************************/
 
 /**** Start Header *******/
@@ -17,40 +16,50 @@ body {
 
 .header .slider .intro button {  text-transform: uppercase; background-color: #037FBB; margin-top: 40px; padding: 10px 5px; border: 3px solid #fff; border-radius: 3px; }
 
-.header .slider .intro a { color: #fff; text-decoration: none; padding: 15px; }
+.header .slider .intro a { color: #fff; padding: 15px 20px; }
 
-.header .slider .intro button:hover { background-color: #1098C8; }
+.header .slider .intro button:hover { background-color: #1098C8; transition: 0.7s; }
 
-.header .nav-bar {
-  background-color: #037FBB;
-  color: #fff; overflow: hidden;
-}
+.header .nav-bar { background-color: #037FBB; color: #fff; overflow: hidden; }
 
 .header .nav-bar h2 { float: left; }
 
+.header .nav-bar a { color: #fff; padding: 10px; }
+
+.header .nav-bar ul li a:hover { color: #83D6DE; transition: 0.5s; }
+
 .header .nav-bar h2 span { font-size: 0.5em; }
 
-.header .nav-bar ul {
-  list-style: none;
-  padding-left: 0;
-  float: right;
-}
+.header .nav-bar ul { list-style: none; padding-left: 0; float: right; }
 
 .header .nav-bar ul li { float: left; padding: 10px; }
+
+.header .nav-bar ul li:not(:last-child) { border-right: 2px solid #fff; }
 
 /****** End Header *******/
 
 
 /**** Start Hero *******/
 
-.hero { overflow: hidden; padding-top: 40px; padding-bottom: 40px;}
+.hero { overflow: hidden; padding-top: 40px; padding-bottom: 40px; }
 
-.hero .hello { text-align: center; }
+.hero .hello { text-align: center; color: #343434 }
 
-.hero .donec { width: 50%; float: left; }
+.hero .hello h2 { font-size: 500%; font-weight: 100; margin: 0; }
 
-.read-more { text-transform: uppercase; text-align: center; }
+.hero .hello h3 { font-size: 130%; font-weight: 100; }
 
+.hero .donec { width: 40%; line-height: 2; float: left; margin-left: 5%; margin-bottom: 20px; }
+
+.hero .donec p { color: #858585; font-size: 90%; letter-spacing: 0.1em; word-spacing: 1px; }
+
+.clear { clear: both; }
+
+.hero .read-more { text-transform: uppercase; text-align: center; margin: 10px; }
+
+.hero .read-more a { color: #037FBB; padding: 10px; }
+
+.hero .read-more a:hover { color: #343434; transition: 0.5s; }
 
 /****** End Hero *******/
 
@@ -58,6 +67,8 @@ body {
 /**** Start Works *******/
 
 .works { padding-top: 40px; padding-bottom: 40px; text-align: center; }
+
+.works h2 { font-weight: 100; }
 
 .works .our-work { overflow: hidden; }
 
