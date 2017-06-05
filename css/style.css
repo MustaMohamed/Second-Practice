@@ -105,17 +105,22 @@ a { text-decoration: none; }
 
 /**** Start MY CLIENTS *******/
 
-.clients { overflow: hidden; margin-bottom: 40px; text-align: center; }
+.clients { overflow: hidden; margin-bottom: 40px; text-align: center; background: #3D8EB9; }
+
+.clients .my-clients h2 { color: #fff; margin-top: 80px; }
 
 .clients .client { width: 25%; float: left;  margin: 40px 0;}
 
+.clients .client h2 { color: #112233; font-weight: 100; }
+
+.clients .client p { font-size: 100%; color: #0F3057; line-height: 2; letter-spacing: .15em; padding: 20px 0; }
 
 /****** End MY CLIENTS *******/
 
 
 /**** Start contact me *******/
 
-.contact { background-color: #282830; overflow: hidden; }
+.contact { background-color: #282830; overflow: hidden; text-align: center; }
 
 .contact h1 { color: #fff; }
 
