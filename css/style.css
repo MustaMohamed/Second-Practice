@@ -102,7 +102,7 @@ a { text-decoration: none; }
 
 .clients { overflow: hidden; margin-bottom: 40px; text-align: center; background: #3D8EB9; }
 
-.clients .my-clients h2 { color: #fff; margin-top: 80px; }
+.clients .my-clients h2 { color: #fff; margin-top: 40px; }
 
 .clients .client { width: 25%; float: left;  margin: 40px 0;}
 
@@ -114,18 +114,34 @@ a { text-decoration: none; }
 
 /**** Start contact me *******/
 
-.contact { background-color: #282830; overflow: hidden; text-align: center; }
+.contact { background-color: #25373D; overflow: hidden; margin-top: -40px; padding: 40px 0 70px 0; }
 
 .contact h1 { color: #fff; }
 
-.contact p { color: #6a6e71; }
+.contact p { color: #6a6e71; line-height: 1.7; margin-bottom: 40px; }
 
-.contact .info, .contact .form { width: 50%; float: left; }
+.contact p strong { color: #D2D7D3; }
+
+.contact .info { width: 50%; float: left; margin-right: 5%; }
+
+.contact .form { width: 45%; float: left; }
+
+.contact .form { color: #D2D7D3; }
+
+.contact .form label { display: block; margin-bottom: 20px; }
+
+.contact .form input[type="text"] { background-color: #3B5557; color: #fff; padding: 10px; border: 0; width: 80%; margin-bottom: 20px; }
+
+.contact .form textarea { background-color: #3B5557; color: #fff; padding: 10px; border: 0; width: 80%; height: 200px; margin-bottom: 20px; }
+
+.contact .form input[type="submit"] { background-color: #191E22; padding: 10px 20px; border: 0; border-radius: 3px; color: #fff; } 
+
+.contact .form input[type="submit"]:hover { background-color: #031316; transition: 0.5s; cursor: pointer; }
 
 /****** End contact me *******/
 
 /**** Start footer *******/
 
-.footer { background-color: #25373D; text-align: center; padding: 20px 0;}
+.footer { background-color: #282830; text-align: center; padding: 20px 0; }
 
 /****** End footer *******/
